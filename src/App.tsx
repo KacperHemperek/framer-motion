@@ -1,9 +1,11 @@
 import "./App.scss";
 
+import FirstSquare from "./components/first-square/FirstSquare";
+
 function App() {
     return (
         <div className="App">
-            <h1>Hello world</h1>
+            <FirstSquare />
         </div>
     );
 }
